@@ -41,5 +41,6 @@ See the individual branches for usage instructions.
 
 The following versions were supported in the past, but are no longer
 maintained:
+
 * `Python 2.7 <https://github.com/pybee/Python-Apple-support/tree/2.7>`__ (EOL January 2020)
 * `Python 3.4 <https://github.com/pybee/Python-Apple-support/tree/3.4>`__ (EOL March 2019)
