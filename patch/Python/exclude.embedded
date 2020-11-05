@@ -25,8 +25,10 @@ Python/Resources/lib/python*/lib-dynload/_xxtestfuzz.so
 # Remove wsgiref web app module; it's unusual that mobile apps would
 # start a web app server with it.
 Python/Resources/lib/python*/wsgiref
-# Remove command-line curses toolkit.
-Python/Resources/lib/python*/curses
+# remove standard lib modules not typically used in apps
+lib/python*/distutils
+lib/python*/pydoc_data
+lib/python*/lib2to3
 # Remove config-* directory, which is used for compiling C extension modules.
 Python/Resources/lib/python*/config-*
 # Remove ensurepip. If user code needs pip, it can add it to
